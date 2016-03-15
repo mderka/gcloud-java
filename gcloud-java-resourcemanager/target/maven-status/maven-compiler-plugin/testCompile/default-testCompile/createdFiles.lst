@@ -1,0 +1,6 @@
+com/google/gcloud/resourcemanager/ResourceManagerExceptionTest.class
+com/google/gcloud/resourcemanager/ProjectInfoTest.class
+com/google/gcloud/resourcemanager/ResourceManagerImplTest.class
+com/google/gcloud/resourcemanager/ProjectTest.class
+com/google/gcloud/resourcemanager/SerializationTest.class
+com/google/gcloud/resourcemanager/LocalResourceManagerHelperTest.class

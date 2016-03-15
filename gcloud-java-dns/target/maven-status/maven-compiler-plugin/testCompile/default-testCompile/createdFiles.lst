@@ -1,0 +1,17 @@
+com/google/gcloud/dns/DnsRecordTest.class
+com/google/gcloud/dns/AbstractOptionTest$3.class
+com/google/gcloud/dns/DnsTest.class
+com/google/gcloud/dns/AbstractOptionTest$1.class
+com/google/gcloud/dns/ZoneTest.class
+com/google/gcloud/dns/AbstractOptionTest$4.class
+com/google/gcloud/dns/SerializationTest.class
+com/google/gcloud/dns/ChangeRequestTest.class
+com/google/gcloud/dns/DnsImplTest.class
+com/google/gcloud/dns/AbstractOptionTest$5.class
+com/google/gcloud/dns/it/ITDnsTest.class
+com/google/gcloud/dns/ProjectInfoTest.class
+com/google/gcloud/dns/ZoneInfoTest.class
+com/google/gcloud/dns/DnsImplTest$1.class
+com/google/gcloud/dns/AbstractOptionTest.class
+com/google/gcloud/dns/AbstractOptionTest$6.class
+com/google/gcloud/dns/AbstractOptionTest$2.class

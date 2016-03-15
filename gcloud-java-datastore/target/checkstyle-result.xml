@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.8.1">
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/GqlQuery.java">
+<error line="189" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="298" column="11" severity="warning" message="Local variable name &apos;v&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/Entity.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/Blob.java">
+<error line="139" column="3" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/BatchImpl.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/LongValue.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/TransactionImpl.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/testing/package-info.java">
+<error line="21" severity="warning" message="&lt;p&gt; tag should be precede with empty line." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheck"/>
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/testing/LocalGcdHelper.java">
+<error line="102" column="3" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="396" severity="warning" message="Empty line should be followed by &lt;p&gt; tag on the next line." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheck"/>
+<error line="527" column="3" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="549" column="3" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="581" severity="warning" message="Overload methods should not be split. Previous overloaded method located at line &apos;402&apos;." source="com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheck"/>
+<error line="581" column="3" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="588" column="3" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="641" column="3" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/package-info.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/DatastoreException.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/NullValue.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/BaseDatastoreBatchWriter.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/DatastoreReaderWriter.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/DatastoreOptions.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/QueryResults.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/Transaction.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/TransactionOption.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/ValueMarshaller.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/BaseEntity.java">
+<error line="105" severity="warning" message="Overload methods should not be split. Previous overloaded method located at line &apos;83&apos;." source="com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheck"/>
+<error line="110" severity="warning" message="Overload methods should not be split. Previous overloaded method located at line &apos;79&apos;." source="com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheck"/>
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/KeyFactory.java">
+<error line="34" column="3" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="41" column="3" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="47" column="3" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="53" column="3" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/Batch.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/DatastoreHelper.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/EntityValue.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/QueryResultsImpl.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/BaseKey.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/BooleanValue.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/ValueType.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/FullEntity.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/BlobValue.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/Value.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/BatchOption.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/KeyValue.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/IncompleteKey.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/Query.java">
+<error line="37" severity="warning" message="Empty line should be followed by &lt;p&gt; tag on the next line." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheck"/>
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/DatastoreWriter.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/StringValue.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/ValueBuilder.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/PathElement.java">
+<error line="120" column="3" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/DateTimeValue.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/DatastoreReader.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/ListValue.java">
+<error line="73" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="80" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/Cursor.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/Serializable.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/StructuredQuery.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/ProjectionEntity.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/DatastoreImpl.java">
+<error line="189" severity="warning" message="Overload methods should not be split. Previous overloaded method located at line &apos;179&apos;." source="com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheck"/>
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/DatastoreBatchWriter.java">
+<error line="50" severity="warning" message="First sentence should be present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="60" severity="warning" message="First sentence should be present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/DateTime.java">
+<error line="82" column="3" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/DoubleValue.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/Datastore.java">
+<error line="84" severity="warning" message="First sentence should be present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="91" severity="warning" message="First sentence should be present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="98" severity="warning" message="First sentence should be present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+<error line="105" severity="warning" message="First sentence should be present." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/DatastoreFactory.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/Key.java">
+<error line="77" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="83" column="5" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="197" column="3" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="203" column="3" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/Validator.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/datastore/RawValue.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/spi/DatastoreRpc.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/spi/DefaultDatastoreRpc.java">
+<error line="50" column="3" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-datastore/src/main/java/com/google/gcloud/spi/DatastoreRpcFactory.java">
+</file>
+</checkstyle>

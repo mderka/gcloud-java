@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changelog>
+  
+<changeset datePattern="yyyyMMdd HH:mm:ss z" start="20160214 14:48:35 PST" end="20160316 15:48:35 PDT">
+	<changelog-entry>
+		<date pattern="yyyy-MM-dd">2016-03-01</date>
+		<time pattern="HH:mm:ss">16:09:49</time>
+		<author><![CDATA[Martin Derka <derka@google.com>]]></author>
+		<file>
+			<action>modified</action>
+			<name>gcloud-java-dns/src/main/java/com/google/gcloud/dns/DnsException.java</name>
+			<revision>4f2810143b17838a75c59bc5615ec44b86a58cab</revision>
+		</file>
+		<msg><![CDATA[Added retries for userRateLimitExceeded and rateLimitExceeded.]]></msg>
+	</changelog-entry>
+	<changelog-entry>
+		<date pattern="yyyy-MM-dd">2016-03-01</date>
+		<time pattern="HH:mm:ss">10:17:19</time>
+		<author><![CDATA[Martin Derka <derka@google.com>]]></author>
+		<file>
+			<action>deleted</action>
+			<name>gcloud-java-dns/src/test/java/com/google/gcloud/dns/ITDnsTest.java</name>
+			<revision>22153aa90264ef13758435b541ec6ee8f17cd620</revision>
+		</file>
+		<file>
+			<action>added</action>
+			<name>gcloud-java-dns/src/test/java/com/google/gcloud/dns/it/ITDnsTest.java</name>
+			<revision>22153aa90264ef13758435b541ec6ee8f17cd620</revision>
+		</file>
+		<msg><![CDATA[Added sleep and renamed change completion check.
+Moved integration test to a separate package and adjusted accordingly.
+Added missing fails.]]></msg>
+	</changelog-entry>
+	<changelog-entry>
+		<date pattern="yyyy-MM-dd">2016-03-01</date>
+		<time pattern="HH:mm:ss">11:57:36</time>
+		<author><![CDATA[Martin Derka <derka@google.com>]]></author>
+		<file>
+			<action>modified</action>
+			<name>gcloud-java-dns/src/main/java/com/google/gcloud/dns/DnsException.java</name>
+			<revision>9b6929bbfdc9dc376fd52464f1df0cda4b5da7e3</revision>
+		</file>
+		<msg><![CDATA[Added retryable errors.]]></msg>
+	</changelog-entry>
+	<changelog-entry>
+		<date pattern="yyyy-MM-dd">2016-02-26</date>
+		<time pattern="HH:mm:ss">18:21:53</time>
+		<author><![CDATA[Martin Derka <derka@google.com>]]></author>
+		<file>
+			<action>modified</action>
+			<name>gcloud-java-dns/src/test/java/com/google/gcloud/dns/ITDnsTest.java</name>
+			<revision>75269ff6a0b2b8518ad4dc562905089c20236412</revision>
+		</file>
+		<msg><![CDATA[Removed unnecessary integration tests. Adjusted deleting objects.]]></msg>
+	</changelog-entry>
+	<changelog-entry>
+		<date pattern="yyyy-MM-dd">2016-02-24</date>
+		<time pattern="HH:mm:ss">08:45:58</time>
+		<author><![CDATA[Martin Derka <derka@google.com>]]></author>
+		<file>
+			<action>modified</action>
+			<name>gcloud-java-dns/src/main/java/com/google/gcloud/dns/Dns.java</name>
+			<revision>cbf737da9a05d69355199bf979e8e2b950aa56e1</revision>
+		</file>
+		<file>
+			<action>modified</action>
+			<name>gcloud-java-dns/src/main/java/com/google/gcloud/spi/DefaultDnsRpc.java</name>
+			<revision>cbf737da9a05d69355199bf979e8e2b950aa56e1</revision>
+		</file>
+		<file>
+			<action>modified</action>
+			<name>gcloud-java-dns/src/test/java/com/google/gcloud/dns/DnsImplTest.java</name>
+			<revision>cbf737da9a05d69355199bf979e8e2b950aa56e1</revision>
+		</file>
+		<file>
+			<action>modified</action>
+			<name>gcloud-java-dns/src/test/java/com/google/gcloud/dns/DnsTest.java</name>
+			<revision>cbf737da9a05d69355199bf979e8e2b950aa56e1</revision>
+		</file>
+		<file>
+			<action>added</action>
+			<name>gcloud-java-dns/src/test/java/com/google/gcloud/dns/ITDnsTest.java</name>
+			<revision>cbf737da9a05d69355199bf979e8e2b950aa56e1</revision>
+		</file>
+		<msg><![CDATA[Added integration tests.]]></msg>
+	</changelog-entry>
+</changeset>
+
+</changelog>

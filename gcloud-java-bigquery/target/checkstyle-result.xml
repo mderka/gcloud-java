@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.8.1">
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/Field.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/Job.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/BigQueryOptions.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/LoadConfiguration.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/ViewInfo.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/testing/package-info.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/testing/RemoteBigQueryHelper.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/package-info.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/LoadJobInfo.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/QueryResult.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/Dataset.java">
+<error line="214" severity="warning" message="Overload methods should not be split. Previous overloaded method located at line &apos;134&apos;." source="com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheck"/>
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/JobStatistics.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/QueryStage.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/DatasetInfo.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/BigQuery.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/InsertAllResponse.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/QueryJobInfo.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/InsertAllRequest.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/UserDefinedFunction.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/JobId.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/Table.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/TableId.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/FormatOptions.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/Schema.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/TableDataWriteChannel.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/BigQueryImpl.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/Option.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/TableInfo.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/BigQueryException.java">
+<error line="56" column="3" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/ExtractJobInfo.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/QueryResponse.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/BigQueryFactory.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/Acl.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/CopyJobInfo.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/ExternalDataConfiguration.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/DatasetId.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/JobInfo.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/ExternalTableInfo.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/FieldValue.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/BigQueryError.java">
+<error line="43" column="3" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="50" column="3" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/CsvOptions.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/BaseTableInfo.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/JobStatus.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/bigquery/QueryRequest.java">
+<error line="123" severity="warning" message="Line is longer than 100 characters (found 101)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/spi/BigQueryRpcFactory.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/spi/BigQueryRpc.java">
+<error line="77" column="21" severity="warning" message="Member name &apos;x&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="78" column="21" severity="warning" message="Member name &apos;y&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="80" column="21" severity="warning" message="Parameter name &apos;x&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="80" column="26" severity="warning" message="Parameter name &apos;y&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="85" column="43" severity="warning" message="Parameter name &apos;x&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="85" column="48" severity="warning" message="Parameter name &apos;y&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="89" column="14" severity="warning" message="Method name &apos;x&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9_]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="93" column="14" severity="warning" message="Method name &apos;y&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9_]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-bigquery/src/main/java/com/google/gcloud/spi/DefaultBigQueryRpc.java">
+<error line="80" column="3" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+</checkstyle>

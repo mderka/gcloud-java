@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.8.1">
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-resourcemanager/src/main/java/com/google/gcloud/resourcemanager/Project.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-resourcemanager/src/main/java/com/google/gcloud/resourcemanager/ResourceManager.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-resourcemanager/src/main/java/com/google/gcloud/resourcemanager/testing/package-info.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-resourcemanager/src/main/java/com/google/gcloud/resourcemanager/testing/LocalResourceManagerHelper.java">
+<error line="237" column="9" severity="warning" message="switch without &quot;default&quot; clause." source="com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck"/>
+<error line="432" column="7" severity="warning" message="switch without &quot;default&quot; clause." source="com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck"/>
+<error line="514" severity="warning" message="Overload methods should not be split. Previous overloaded method located at line &apos;305&apos;." source="com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheck"/>
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-resourcemanager/src/main/java/com/google/gcloud/resourcemanager/package-info.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-resourcemanager/src/main/java/com/google/gcloud/resourcemanager/ResourceManagerException.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-resourcemanager/src/main/java/com/google/gcloud/resourcemanager/ResourceManagerFactory.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-resourcemanager/src/main/java/com/google/gcloud/resourcemanager/ResourceManagerOptions.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-resourcemanager/src/main/java/com/google/gcloud/resourcemanager/Option.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-resourcemanager/src/main/java/com/google/gcloud/resourcemanager/ProjectInfo.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-resourcemanager/src/main/java/com/google/gcloud/resourcemanager/ResourceManagerImpl.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-resourcemanager/src/main/java/com/google/gcloud/spi/ResourceManagerRpcFactory.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-resourcemanager/src/main/java/com/google/gcloud/spi/DefaultResourceManagerRpc.java">
+<error line="26" column="3" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-resourcemanager/src/main/java/com/google/gcloud/spi/ResourceManagerRpc.java">
+<error line="57" column="21" severity="warning" message="Member name &apos;x&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="58" column="21" severity="warning" message="Member name &apos;y&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="60" column="21" severity="warning" message="Parameter name &apos;x&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="60" column="26" severity="warning" message="Parameter name &apos;y&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="65" column="43" severity="warning" message="Parameter name &apos;x&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="65" column="48" severity="warning" message="Parameter name &apos;y&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="69" column="14" severity="warning" message="Method name &apos;x&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9_]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="73" column="14" severity="warning" message="Method name &apos;y&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9_]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+</file>
+</checkstyle>

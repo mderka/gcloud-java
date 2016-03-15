@@ -1,0 +1,30 @@
+Invoking Maven for the goals: [org.apache.maven.plugins:maven-javadoc-plugin:2.10.3:javadoc] with no properties
+
+M2_HOME=/usr/local/apache-maven-3.3.3
+MAVEN_OPTS=null
+JAVA_HOME=/usr/local/buildtools/java/jdk8-google-v7-64/jre/..
+JAVA_OPTS=null
+
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building GCloud Java 0.1.3-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-javadoc-plugin:2.10.3:javadoc (default-cli) > generate-sources @ gcloud-java >>>
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4:enforce (enforce-maven) @ gcloud-java ---
+[INFO] 
+[INFO] <<< maven-javadoc-plugin:2.10.3:javadoc (default-cli) < generate-sources @ gcloud-java <<<
+[INFO] 
+[INFO] --- maven-javadoc-plugin:2.10.3:javadoc (default-cli) @ gcloud-java ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.847 s
+[INFO] Finished at: 2016-03-15T15:48:46-07:00
+[INFO] Final Memory: 19M/485M
+[INFO] ------------------------------------------------------------------------

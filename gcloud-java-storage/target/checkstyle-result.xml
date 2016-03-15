@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.8.1">
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-storage/src/main/java/com/google/gcloud/storage/Blob.java">
+<error line="128" severity="warning" message="Overload methods should not be split. Previous overloaded method located at line &apos;66&apos;." source="com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheck"/>
+<error line="382" severity="warning" message="Overload methods should not be split. Previous overloaded method located at line &apos;186&apos;." source="com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheck"/>
+<error line="431" severity="warning" message="Overload methods should not be split. Previous overloaded method located at line &apos;263&apos;." source="com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheck"/>
+<error line="456" severity="warning" message="Overload methods should not be split. Previous overloaded method located at line &apos;276&apos;." source="com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheck"/>
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-storage/src/main/java/com/google/gcloud/storage/testing/package-info.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-storage/src/main/java/com/google/gcloud/storage/testing/RemoteGcsHelper.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-storage/src/main/java/com/google/gcloud/storage/package-info.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-storage/src/main/java/com/google/gcloud/storage/BatchResponse.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-storage/src/main/java/com/google/gcloud/storage/StorageFactory.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-storage/src/main/java/com/google/gcloud/storage/Cors.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-storage/src/main/java/com/google/gcloud/storage/BlobWriteChannel.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-storage/src/main/java/com/google/gcloud/storage/CopyWriter.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-storage/src/main/java/com/google/gcloud/storage/Storage.java">
+<error line="1485" severity="warning" message="Overload methods should not be split. Previous overloaded method located at line &apos;1,272&apos;." source="com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheck"/>
+<error line="1499" severity="warning" message="Overload methods should not be split. Previous overloaded method located at line &apos;1,324&apos;." source="com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheck"/>
+<error line="1510" severity="warning" message="Overload methods should not be split. Previous overloaded method located at line &apos;1,356&apos;." source="com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheck"/>
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-storage/src/main/java/com/google/gcloud/storage/BlobReadChannel.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-storage/src/main/java/com/google/gcloud/storage/BucketInfo.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-storage/src/main/java/com/google/gcloud/storage/BlobInfo.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-storage/src/main/java/com/google/gcloud/storage/BatchRequest.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-storage/src/main/java/com/google/gcloud/storage/Bucket.java">
+<error line="173" severity="warning" message="Overload methods should not be split. Previous overloaded method located at line &apos;135&apos;." source="com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheck"/>
+<error line="301" severity="warning" message="Overload methods should not be split. Previous overloaded method located at line &apos;217&apos;." source="com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheck"/>
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-storage/src/main/java/com/google/gcloud/storage/StorageException.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-storage/src/main/java/com/google/gcloud/storage/Option.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-storage/src/main/java/com/google/gcloud/storage/Acl.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-storage/src/main/java/com/google/gcloud/storage/StorageImpl.java">
+<error line="589" severity="warning" message="Overload methods should not be split. Previous overloaded method located at line &apos;187&apos;." source="com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheck"/>
+<error line="599" severity="warning" message="Overload methods should not be split. Previous overloaded method located at line &apos;329&apos;." source="com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheck"/>
+<error line="609" severity="warning" message="Overload methods should not be split. Previous overloaded method located at line &apos;371&apos;." source="com.puppycrawl.tools.checkstyle.checks.coding.OverloadMethodsDeclarationOrderCheck"/>
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-storage/src/main/java/com/google/gcloud/storage/HttpMethod.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-storage/src/main/java/com/google/gcloud/storage/BlobId.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-storage/src/main/java/com/google/gcloud/storage/StorageOptions.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-storage/src/main/java/com/google/gcloud/spi/StorageRpc.java">
+<error line="83" column="21" severity="warning" message="Member name &apos;x&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="84" column="21" severity="warning" message="Member name &apos;y&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="86" column="21" severity="warning" message="Parameter name &apos;x&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="86" column="26" severity="warning" message="Parameter name &apos;y&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="91" column="43" severity="warning" message="Parameter name &apos;x&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="91" column="48" severity="warning" message="Parameter name &apos;y&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="95" column="14" severity="warning" message="Method name &apos;x&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9_]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="99" column="14" severity="warning" message="Method name &apos;y&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9_]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-storage/src/main/java/com/google/gcloud/spi/StorageRpcFactory.java">
+</file>
+<file name="/usr/local/google/home/derka/Repos/pages/gcloud-java/gcloud-java-storage/src/main/java/com/google/gcloud/spi/DefaultStorageRpc.java">
+<error line="83" column="3" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="387" column="49" severity="warning" message="Parameter name &apos;e&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="405" column="49" severity="warning" message="Parameter name &apos;e&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="420" column="49" severity="warning" message="Parameter name &apos;e&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+</file>
+</checkstyle>

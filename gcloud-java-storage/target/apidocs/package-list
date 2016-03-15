@@ -1,0 +1,3 @@
+com.google.gcloud.spi
+com.google.gcloud.storage
+com.google.gcloud.storage.testing
