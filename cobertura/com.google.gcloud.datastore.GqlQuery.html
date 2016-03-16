@@ -111,21 +111,21 @@
 <tr>  <td class="numLine">&nbsp;45</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;<span class="comment"> * &lt;p&gt;When the type of the results is known the preferred usage would be:</span></pre></td></tr>
 <tr>  <td class="numLine">&nbsp;46</td>  <td class="nbHits">&nbsp;</td>
-  <td class="src"><pre class="src">&nbsp;<span class="comment"> * &lt;pre&gt;{@code</span></pre></td></tr>
+  <td class="src"><pre class="src">&nbsp;<span class="comment"> * &lt;pre&gt; {@code</span></pre></td></tr>
 <tr>  <td class="numLine">&nbsp;47</td>  <td class="nbHits">&nbsp;</td>
-  <td class="src"><pre class="src">&nbsp;<span class="comment"> *   Query&lt;Entity&gt; query =</span></pre></td></tr>
+  <td class="src"><pre class="src">&nbsp;<span class="comment"> * Query&lt;Entity&gt; query =</span></pre></td></tr>
 <tr>  <td class="numLine">&nbsp;48</td>  <td class="nbHits">&nbsp;</td>
-  <td class="src"><pre class="src">&nbsp;<span class="comment"> *       Query.gqlQueryBuilder(Query.ResultType.ENTITY, "select * from kind").build();</span></pre></td></tr>
+  <td class="src"><pre class="src">&nbsp;<span class="comment"> *     Query.gqlQueryBuilder(Query.ResultType.ENTITY, "select * from kind").build();</span></pre></td></tr>
 <tr>  <td class="numLine">&nbsp;49</td>  <td class="nbHits">&nbsp;</td>
-  <td class="src"><pre class="src">&nbsp;<span class="comment"> *   QueryResults&lt;Entity&gt; results = datastore.run(query);</span></pre></td></tr>
+  <td class="src"><pre class="src">&nbsp;<span class="comment"> * QueryResults&lt;Entity&gt; results = datastore.run(query);</span></pre></td></tr>
 <tr>  <td class="numLine">&nbsp;50</td>  <td class="nbHits">&nbsp;</td>
-  <td class="src"><pre class="src">&nbsp;<span class="comment"> *   while (results.hasNext()) {</span></pre></td></tr>
+  <td class="src"><pre class="src">&nbsp;<span class="comment"> * while (results.hasNext()) {</span></pre></td></tr>
 <tr>  <td class="numLine">&nbsp;51</td>  <td class="nbHits">&nbsp;</td>
-  <td class="src"><pre class="src">&nbsp;<span class="comment"> *     Entity entity = results.next();</span></pre></td></tr>
+  <td class="src"><pre class="src">&nbsp;<span class="comment"> *   Entity entity = results.next();</span></pre></td></tr>
 <tr>  <td class="numLine">&nbsp;52</td>  <td class="nbHits">&nbsp;</td>
-  <td class="src"><pre class="src">&nbsp;<span class="comment"> *     ...</span></pre></td></tr>
+  <td class="src"><pre class="src">&nbsp;<span class="comment"> *   ...</span></pre></td></tr>
 <tr>  <td class="numLine">&nbsp;53</td>  <td class="nbHits">&nbsp;</td>
-  <td class="src"><pre class="src">&nbsp;<span class="comment"> *   }</span></pre></td></tr>
+  <td class="src"><pre class="src">&nbsp;<span class="comment"> * }</span></pre></td></tr>
 <tr>  <td class="numLine">&nbsp;54</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;<span class="comment"> * } &lt;/pre&gt;</span></pre></td></tr>
 <tr>  <td class="numLine">&nbsp;55</td>  <td class="nbHits">&nbsp;</td>
@@ -133,25 +133,25 @@
 <tr>  <td class="numLine">&nbsp;56</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;<span class="comment"> * &lt;p&gt;When the type of the results is unknown you can use this approach:</span></pre></td></tr>
 <tr>  <td class="numLine">&nbsp;57</td>  <td class="nbHits">&nbsp;</td>
-  <td class="src"><pre class="src">&nbsp;<span class="comment"> * &lt;pre&gt;{@code</span></pre></td></tr>
+  <td class="src"><pre class="src">&nbsp;<span class="comment"> * &lt;pre&gt; {@code</span></pre></td></tr>
 <tr>  <td class="numLine">&nbsp;58</td>  <td class="nbHits">&nbsp;</td>
-  <td class="src"><pre class="src">&nbsp;<span class="comment"> *   Query&lt;?&gt; query = Query.gqlQueryBuilder("select __key__ from kind").build();</span></pre></td></tr>
+  <td class="src"><pre class="src">&nbsp;<span class="comment"> * Query&lt;?&gt; query = Query.gqlQueryBuilder("select __key__ from kind").build();</span></pre></td></tr>
 <tr>  <td class="numLine">&nbsp;59</td>  <td class="nbHits">&nbsp;</td>
-  <td class="src"><pre class="src">&nbsp;<span class="comment"> *   QueryResults&lt;?&gt; results = datastore.run(query);</span></pre></td></tr>
+  <td class="src"><pre class="src">&nbsp;<span class="comment"> * QueryResults&lt;?&gt; results = datastore.run(query);</span></pre></td></tr>
 <tr>  <td class="numLine">&nbsp;60</td>  <td class="nbHits">&nbsp;</td>
-  <td class="src"><pre class="src">&nbsp;<span class="comment"> *   if (Key.class.isAssignableFrom(results.resultClass())) {</span></pre></td></tr>
+  <td class="src"><pre class="src">&nbsp;<span class="comment"> * if (Key.class.isAssignableFrom(results.resultClass())) {</span></pre></td></tr>
 <tr>  <td class="numLine">&nbsp;61</td>  <td class="nbHits">&nbsp;</td>
-  <td class="src"><pre class="src">&nbsp;<span class="comment"> *     QueryResults&lt;Key&gt; keys = (QueryResults&lt;Key&gt;) results;</span></pre></td></tr>
+  <td class="src"><pre class="src">&nbsp;<span class="comment"> *   QueryResults&lt;Key&gt; keys = (QueryResults&lt;Key&gt;) results;</span></pre></td></tr>
 <tr>  <td class="numLine">&nbsp;62</td>  <td class="nbHits">&nbsp;</td>
-  <td class="src"><pre class="src">&nbsp;<span class="comment"> *     while (keys.hasNext()) {</span></pre></td></tr>
+  <td class="src"><pre class="src">&nbsp;<span class="comment"> *   while (keys.hasNext()) {</span></pre></td></tr>
 <tr>  <td class="numLine">&nbsp;63</td>  <td class="nbHits">&nbsp;</td>
-  <td class="src"><pre class="src">&nbsp;<span class="comment"> *       Key key = keys.next();</span></pre></td></tr>
+  <td class="src"><pre class="src">&nbsp;<span class="comment"> *     Key key = keys.next();</span></pre></td></tr>
 <tr>  <td class="numLine">&nbsp;64</td>  <td class="nbHits">&nbsp;</td>
-  <td class="src"><pre class="src">&nbsp;<span class="comment"> *       ...</span></pre></td></tr>
+  <td class="src"><pre class="src">&nbsp;<span class="comment"> *     ...</span></pre></td></tr>
 <tr>  <td class="numLine">&nbsp;65</td>  <td class="nbHits">&nbsp;</td>
-  <td class="src"><pre class="src">&nbsp;<span class="comment"> *     }</span></pre></td></tr>
-<tr>  <td class="numLine">&nbsp;66</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;<span class="comment"> *   }</span></pre></td></tr>
+<tr>  <td class="numLine">&nbsp;66</td>  <td class="nbHits">&nbsp;</td>
+  <td class="src"><pre class="src">&nbsp;<span class="comment"> * }</span></pre></td></tr>
 <tr>  <td class="numLine">&nbsp;67</td>  <td class="nbHits">&nbsp;</td>
   <td class="src"><pre class="src">&nbsp;<span class="comment"> * } &lt;/pre&gt;</span></pre></td></tr>
 <tr>  <td class="numLine">&nbsp;68</td>  <td class="nbHits">&nbsp;</td>
@@ -708,6 +708,6 @@
   <td class="src"><pre class="src">&nbsp;}</pre></td></tr>
 </table>
 
-<div class="footer">Report generated by <a href="http://cobertura.sourceforge.net/" target="_top">Cobertura</a> 2.1.1 on 3/15/16 3:48 PM.</div>
+<div class="footer">Report generated by <a href="http://cobertura.sourceforge.net/" target="_top">Cobertura</a> 2.1.1 on 3/16/16 12:05 PM.</div>
 </body>
 </html>
